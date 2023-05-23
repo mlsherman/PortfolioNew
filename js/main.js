@@ -634,7 +634,7 @@
           })
           // Getting a response from the server
           .done(function(response) {
-            // If the PHP file succeed sending the message
+            // If the  file succeed sending the message
             if (response == 'success') {
               // Feedback to the user
               submitBtn.removeClass('wait').html('Success').addClass('success');
